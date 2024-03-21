@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BlackOpsOneRegular';
+    src: url('fonts/BlackOpsOneRegular.eot');
+    src: url('fonts/BlackOpsOneRegular.eot') format('embedded-opentype'),
+         url('fonts/BlackOpsOneRegular.woff2') format('woff2'),
+         url('fonts/BlackOpsOneRegular.woff') format('woff'),
+         url('fonts/BlackOpsOneRegular.ttf') format('truetype'),
+         url('fonts/BlackOpsOneRegular.svg#BlackOpsOneRegular') format('svg');
+}

@@ -1,0 +1,213 @@
+@import '../js/lightbox2/src/css/lightbox.css';
+h1,
+h2,
+h3,
+h4,
+p,
+nav,
+ul,
+body {
+  margin: 0;
+}
+body {
+  background-color: #eff2f1;
+  font-family: Verdana;
+}
+body header,
+body footer {
+  width: 100%;
+  margin: 0 auto;
+}
+body header {
+  display: flex;
+  padding: 2em 1em;
+}
+body header img {
+  max-width: 200px;
+  margin: 0 1em;
+}
+body main {
+  width: 80%;
+  margin: 0 auto;
+}
+body h1 {
+  color: #6b9ac4;
+  font-family: black-ops;
+  letter-spacing: 1px;
+  margin: 0.8em 0;
+}
+body h2 {
+  color: #17b183;
+  font-family: harabara;
+  margin-bottom: 0.7em;
+}
+body p {
+  color: #231123;
+  line-height: 1.3em;
+  margin-bottom: 0.6em;
+  border-bottom: 1px solid #231123;
+}
+body header {
+  background-color: #424b61;
+  padding: 3em 0;
+  align-items: center;
+}
+body header h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+body nav {
+  margin: 20px;
+  border-top: 2px solid #eff2f1;
+  background-color: #424b61;
+  color: #eff2f1;
+  width: 90%;
+}
+body nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
+  height: 80px;
+}
+body nav ul li {
+  position: relative;
+  flex: 1 1 auto;
+  text-align: center;
+  align-items: center;
+  display: grid;
+}
+body nav ul li .sub-nav {
+  display: none;
+  position: absolute;
+  background-color: #5b6786;
+  border: 2px solid #efcd98;
+  border-top: 0;
+  opacity: 0;
+  -webkit-transition: 0 0.35;
+  transition: 0 0.35;
+  top: 2em;
+}
+body nav ul li.active {
+  background-color: #efcd98;
+}
+body nav ul a {
+  color: #eff2f1;
+  text-decoration: none;
+}
+body nav ul a:visited {
+  color: #eff2f1;
+}
+body nav ul li:hover {
+  background-color: #eff2f1;
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.415);
+}
+body nav ul li:hover a {
+  color: #231123;
+}
+body main {
+  background-color: #eff2f1;
+}
+body footer {
+  padding: 1em 2em 1em 2em;
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #424b61;
+  color: #eff2f1;
+}
+body footer :first-child {
+  grid-column-start: 2;
+  justify-self: center;
+  align-self: center;
+}
+body footer #social-media-sprite {
+  filter: invert(100%) sepia(19%) saturate(252%) hue-rotate(105deg) brightness(102%) contrast(90%);
+  justify-self: end;
+  display: flex;
+  padding: 0.4em;
+  margin: 2em;
+}
+body footer #social-media-sprite div {
+  transform: rotate(0deg);
+  transition: all 0.75s 0.25s;
+}
+body footer #social-media-sprite div:hover {
+  transform: rotate(360deg);
+}
+body footer #fb {
+  width: 48px;
+  height: 48px;
+  background: url(../images/social-icons/spritesheet.png) 0px 0px;
+}
+body footer #tt {
+  width: 48px;
+  height: 48px;
+  background: url(../images/social-icons/spritesheet.png) -96px 0px;
+}
+body footer #in {
+  width: 48px;
+  height: 48px;
+  background: url(../images/social-icons/spritesheet.png) -48px 0px;
+}
+body footer #tx {
+  width: 48px;
+  height: 48px;
+  background: url(../images/social-icons/spritesheet.png) -144px 0px;
+}
+body #about-me-bg {
+  padding: ;
+}
+body #top-wrapper {
+  display: flex;
+}
+body #top-wrapper div {
+  margin-right: 20px;
+}
+body #top-wrapper div ul {
+  flex: 1 1 auto;
+}
+body #top-wrapper div img {
+  width: 400px;
+  border-radius: 10px;
+  flex: 1 1 auto;
+}
+body section p {
+  border-bottom: white;
+}
+body main .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(278px, 1fr));
+  margin-top: 1.5em;
+  grid-gap: 1em;
+}
+body main figure {
+  width: 100%;
+  border: 2px solid black;
+}
+body main img {
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+}
+body main figcaption {
+  font-size: 1.5em;
+  text-align: center;
+}
+@font-face {
+  font-family: harabara;
+  src: url(../fonts/harabara/Harabara.ttf);
+}
+@font-face {
+  font-family: furore;
+  src: url(../fonts/furore/Furore.otf);
+}
+@font-face {
+  font-family: web-serveroff;
+  src: url(../fonts/web-serveroff/Web_Serveroff.otf);
+  src: url(../fonts/web-serveroff/Web_Serveroff-Italic.otf);
+}
+@font-face {
+  font-family: black-ops;
+  src: url("../fonts/black ops/fonts/BlackOpsOneRegular.ttf");
+}
